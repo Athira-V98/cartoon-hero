@@ -6,8 +6,10 @@ html, body {
  	
 header h1{
 	color: brown;
-	margin: 20px;
+	margin: 10px;
 	font-family: georgia;
+	position: absolute;
+	top: 10px;
 }
 header p{
 	font-family: serif;
@@ -15,24 +17,36 @@ header p{
 	margin: 10px;
 	padding: 10px;
 }
+header h3{
+	color: white;
+	background-color: sandybrown;
+	position: relative;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	margin right: 10px;
+}
 header button{
 	text-align: center;
 }
 .links
 a:link, a:visited{
-	color: black;
+	color: brown;
 }
 a:hover, a:active{
 	color: sandybrown;
 }
 
 .links{
-	float:right ;
+	position: absolute;
+	left: 600px;
+	display: inline;
+  font-size: 20px;
 	
 }
 .button{
 	float: right;
-	margin: 10px;
+	margin: 0px;
 }
 .gallery{
 	background-color: #835623;
@@ -93,7 +107,7 @@ a:hover, a:active{
 	color: white;
 	position: absolute;
     top: 87%;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -104,6 +118,78 @@ a:hover, a:active{
 	right: 140px;
 	text-align: center;
 }
+.atrium{
+	background-color: #502C05;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.atrium p{
+	display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.left-center{
+	position: absolute;
+	top: 900px;
+	left: 210px;
+	background-color: hsl(31, 10%, 90%, 0.7);
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: black;
+ }
+
+.middle-center{
+  position: absolute;
+  top: 131%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(31, 10%, 90%, 0.7);
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  color: black;
+}
+
+.right-center{
+	position: absolute;
+	top: 900px;
+	right: 210px;
+	background-color: hsl(31, 10%, 90%, 0.7);
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  color: black;
+}
+
+.one{
+	color: white;
+	position: absolute;
+	top: 1140px;
+	left: 85px;
+	text-align: center;
+}
+
+.two{
+	color: white;
+	position: absolute;
+    top: 164%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.three{
+	color: white;
+	position: absolute;
+	top: 1140px;
+	right: 140px;
+	text-align: center;
+}
+
 footer{
 	text-align: center;
 }
