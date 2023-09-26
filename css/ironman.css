@@ -1,0 +1,42 @@
+html, body{
+	font-family: sans-serif;
+	margin: 0px;
+}
+header{
+	background-color: darkred;
+	color: white;
+	text-align: center;
+	
+
+}
+header h1{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+header img{
+	margin: 10px;
+	padding: 0.5px;
+	border: 10px solid darkgoldenrod;
+}
+.content{
+	padding: 10px;
+	background-color: #333333;
+}
+.content img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2{
+	text-align: center;
+	color: darkred;
+}
+p{
+	color: white;
+}
+footer{
+	margin-inline: 10px;
+	text-align: center;
+}
