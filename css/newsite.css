@@ -2,6 +2,7 @@ html, body {
 	margin: 0px;
 	background-image: url(https://images.unsplash.com/photo-1613946576929-3cc54e1cb5ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
 	background-size: cover;
+	background-attachment: fixed;
 }
  	
 header h1{
@@ -11,12 +12,7 @@ header h1{
 	position: absolute;
 	top: 10px;
 }
-header p{
-	font-family: serif;
-	float: left;
-	margin: 10px;
-	padding: 10px;
-}
+
 header h3{
 	color: white;
 	background-color: sandybrown;
@@ -26,24 +22,38 @@ header h3{
 	padding: 10px;
 	margin right: 10px;
 }
+
 header button{
 	text-align: center;
 }
-.links
-a:link, a:visited{
-	color: brown;
-}
-a:hover, a:active{
-	color: sandybrown;
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #502C05;
 }
 
-.links{
-	position: absolute;
-	left: 600px;
-	display: inline;
-  font-size: 20px;
-	
+.navigation li {
+	display: inline-block;
+	padding-left: 0px;
+	margin-left: 250px;
+
 }
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #835623;
+}
+
 .button{
 	float: right;
 	margin: 0px;
@@ -98,7 +108,7 @@ a:hover, a:active{
 .first{
 	color: white;
 	position: absolute;
-	top: 600px;
+	top: 590px;
 	left: 85px;
 	text-align: center;
 }
@@ -106,7 +116,7 @@ a:hover, a:active{
 .second{
 	color: white;
 	position: absolute;
-    top: 87%;
+    top: 88%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -114,10 +124,11 @@ a:hover, a:active{
 .third{
 	color: white;
 	position: absolute;
-	top: 600px;
+	top: 590px;
 	right: 140px;
 	text-align: center;
 }
+
 .atrium{
 	background-color: #502C05;
 	padding-bottom: 20px;
@@ -143,7 +154,7 @@ a:hover, a:active{
 
 .middle-center{
   position: absolute;
-  top: 131%;
+  top: 134%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: hsl(31, 10%, 90%, 0.7);
@@ -169,7 +180,7 @@ a:hover, a:active{
 .one{
 	color: white;
 	position: absolute;
-	top: 1140px;
+	top: 1130px;
 	left: 85px;
 	text-align: center;
 }
@@ -177,7 +188,7 @@ a:hover, a:active{
 .two{
 	color: white;
 	position: absolute;
-    top: 164%;
+    top: 167%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -185,9 +196,71 @@ a:hover, a:active{
 .three{
 	color: white;
 	position: absolute;
-	top: 1140px;
+	top: 1130px;
 	right: 140px;
 	text-align: center;
+}
+
+.table{
+	font-family: serif;
+  width: 100%;
+  color: white;
+  position: relative;
+  left: 650px;
+  border: 1px;
+  
+}
+.bottomnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #835623;
+}
+
+.bottomnav li {
+	display: inline-block;
+	padding-left: 20px;
+	margin-left: 190px;
+}
+
+.bottomnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.bottomnav li a:hover {
+  background-color: #502C05;
+}
+
+table {
+  border-spacing: 20px;
+}
+
+td,{
+  border: 0px solid #80480C;
+  text-align: left;
+  padding: 8px;
+  border-spacing: 20px
+}
+caption{
+	text-align: center;
+	color: #80480C;
+	font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: none;
+  color: #835623;
+  
+}
+tr:nth-child(odd) {
+  background-color:none;
+  color: #835623; 
+  
 }
 
 footer{
