@@ -1,0 +1,57 @@
+html, body {
+	margin: 0px;
+	background-image: url(https://images.unsplash.com/photo-1613946576929-3cc54e1cb5ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+	background-size: cover;
+	background-attachment: fixed;
+}
+h2{
+	color: sandybrown;
+	text-align: center;
+}
+
+.details{
+	background-color: #502C05;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+	
+}
+.details label{
+	float: left;
+	display: inline-block;
+	position: absolute;
+	left: 610px;
+	margin-top: 2px;
+}
+
+.details input, select{
+	float: left;
+    display: inline-block;
+    position: relative;
+    left: 710px;
+}
+
+.ask1{
+	background-color: #835623;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.ask2{
+	background-color: #835623;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
