@@ -45,13 +45,22 @@ h2{
 	margin-right: 40px;
 	margin-left: 40px;
 }
-.ask2{
-	background-color: #835623;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	color: white;
+
+.ask1{
+	text-align: center;
+	
+}
+.Submit{
+	text-align: center;
+	background-color: #835623 ;
 	margin-right: 40px;
 	margin-left: 40px;
+	padding-bottom: 20px;
+}
+.Submit input{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	
 }
