@@ -80,19 +80,22 @@ h2{
 .ask2{
 	text-align: center;
 }
+
 .ask2 input{
 	padding-bottom: 5px;
 	padding-top: 5px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
+
 .date{
-	background-color: #502C05 ;
+	background-color: white ;
 	color: white;
 	margin-right: 40px;
 	margin-left: 40px;
 	text-align: center;
 }
+
 .date label{
 	padding-right: 5px;
 	padding-left: 20px;
