@@ -11,7 +11,7 @@ h2{
 
 .details{
 	background-color: #502C05;
-	padding-top: 20px;
+	padding-top: 5px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	padding-right: 20px;
@@ -48,7 +48,10 @@ h2{
 
 .ask1{
 	text-align: center;
-	
+}
+.ask1 p{
+	color: black;
+	font-size: 20px;
 }
 .Submit{
 	text-align: center;
@@ -62,5 +65,35 @@ h2{
 	padding-top: 5px;
 	padding-right: 20px;
 	padding-left: 20px;
-	
+}
+.ask2{
+	background-color: #502C05;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.ask2{
+	text-align: center;
+}
+.ask2 input{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.date{
+	background-color: #502C05 ;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+}
+.date label{
+	padding-right: 5px;
+	padding-left: 20px;
 }

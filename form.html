@@ -12,38 +12,38 @@
 	<br>
 	<br>
 	<form>
-		<div class="details">
-	<label for="fname">First Name: </label>
-	<input type="text" id="fname" name="fname"><br>
-	<br>
-	<label for="lname">Last Name: </label>
-	<input type="text" id="lname" name="lname"><br>
-	<br>
-	<label for="username">Username: </label>
-	<input type="text" id="username" name="username"><br>
-	<br>
-	<label for="pwd">Password: </label>
-	<input type="password" id="pwd" name="pwd"><br>
-	<br>
-	<br>
-	<label for="bday">Date of Birth: </label>
-	<input type="Date" id="bday" name="bday">
-	<br>
-	<br>
-    <label for="job">Profession: </label>
-	<select id="jobs" name="jobs">
-		<option value="Interior Designer">Interior Designer</option>
-		<option value="Architect">Architect</option>
-		<option value="Interior Decorator">Interior Decorator</option>
-		<option value="Contractor">Contractor</option>
-		<option value="Consultant">Consultant</option>
-	</select>
-	<br>
-	<br>
+	<div class="details">
+		<h2>Details</h2>
+			<label for="fname">First Name: </label>
+			<input type="text" id="fname" name="fname"><br>
+		<br>
+			<label for="lname">Last Name: </label>
+			<input type="text" id="lname" name="lname"><br>
+		<br>
+			<label for="username">Username: </label>
+			<input type="text" id="username" name="username"><br>
+		<br>
+			<label for="pwd">Password: </label>
+			<input type="password" id="pwd" name="pwd"><br>
+		<br>
+		<br>
+			<label for="bday">Date of Birth: </label>
+			<input type="Date" id="bday" name="bday">
+		<br>
+		<br>
+	    	<label for="job">Profession: </label>
+			<select id="jobs" name="jobs">
+				<option value="Interior Designer">Interior Designer</option>
+				<option value="Architect">Architect</option>
+				<option value="Interior Decorator">Interior Decorator</option>
+				<option value="Contractor">Contractor</option>
+				<option value="Consultant">Consultant</option>
+			</select>
+		<br>
+		<br>
 	</div>
 	</form>
-	<br>
-	<br>
+		<br>
 	<!--<input list="jobs" name="jobs">
 	<datalist id="jobs">
 		<option value="Interior Designer">Interior Designer</option>
@@ -54,31 +54,49 @@
 	</datalist> -->
 	<form>
 	<div class="ask1">
-	<h3> How are you going to use this website?</h3>
-	<input type="radio" name="need" id="personal" value="Personal">
-	<label for="personal">Personal</label>
-	<input type="radio" name="need" id="professional" value="Professional">
-	<label for="professional">Professional</label>
-	<input type="radio" name="need" id="studies" value="Studies">
-	<label for="studies">Studies</label>
-	<input type="radio" name="need" id="other" value="Other">
-	<label for="other">Other</label>
-	<br>
-	<br>
-	<h3> What are your interest areas?</h3>
-	<input type="checkbox" name="interest" id="Interior" value="Interior">
-	<label for="Interior">Interior</label>
-	<input type="checkbox" name="interest" id="Architecture" value="Architecture">
-	<label for="Architecture">Architecture</label>
-	<input type="checkbox" name="interest" id="Engineer" value="Engineer">
-	<label for="Engineer">Engineer</label>
-	<input type="checkbox" name="interest" id="INSPO" value="INSPO">
-	<label for="INSPO">INSPO</label>
-	<br>
-	<br>
+			<p> How are you going to use this website?</p>
+			<input type="radio" name="need" id="personal" value="Personal">
+			<label for="personal">Personal</label>
+			<input type="radio" name="need" id="professional" value="Professional">
+			<label for="professional">Professional</label>
+			<input type="radio" name="need" id="studies" value="Studies">
+			<label for="studies">Studies</label>
+			<input type="radio" name="need" id="other" value="Other">
+			<label for="other">Other</label>
+		<br>
+		<br>
+			<p> What are your interest areas?</p>
+			<input type="checkbox" name="interest" id="Interior" value="Interior">
+			<label for="Interior">Interior</label>
+			<input type="checkbox" name="interest" id="Architecture" value="Architecture">
+			<label for="Architecture">Architecture</label>
+			<input type="checkbox" name="interest" id="Engineer" value="Engineer">
+			<label for="Engineer">Engineer</label>
+			<input type="checkbox" name="interest" id="INSPO" value="INSPO">
+			<label for="INSPO">INSPO</label>
+		<br>
+		<br>
     </div>
     <div class="Submit">
-	<input type="Submit" value="Sign Up">
+			<input type="Submit" value="Sign Up">
 	</div>
     </form>
+    	<br>
+    <form>
+    <div class="ask2">
+	    	<p>Subscribe for special announcements for design week and other opportunities based on your field of expertise.</p>
+	    	<input type="Submit" value="Subscribe">
+	    	<br>
+	    	<p>Choose the date and time of your subscription for Monthly/Yearly Anniversary offers.</p>
+    </div>
+    <div class="date">
+    	<label for="subdate">Subscription Date:</label>
+    	<input type="datetime-local">
+    	<label for="phone"> Contact No:</label>
+    	<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> 
+    	<br>
+    	<br>
+    </div>
+    </form>
+
 	
