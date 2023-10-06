@@ -1,0 +1,39 @@
+html, body {
+	margin: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-color: #ac6e3b;
+}
+img{
+	width: 1030px;
+	height: 706px;
+	float: left;
+}
+.head{
+	padding-right: 130px;
+	padding-top: 170px;
+	float: right;
+	font-size: 30px;
+	font-family: georgia;
+}
+
+form{
+	padding-right: 60px;
+	float: right;
+}
+
+label{
+	padding-right: 20px ;
+	padding-left: 20px;
+	font-family: georgia;
+}
+input{
+	margin-right: 20px;
+}
+.submit input{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 130px;
+}
