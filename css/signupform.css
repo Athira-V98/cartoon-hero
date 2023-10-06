@@ -100,3 +100,10 @@ h2{
 	padding-right: 5px;
 	padding-left: 20px;
 }
+.date a{
+	 color: white;
+	 padding-left: 20px;
+	}
+.date a:hover{
+	 color: red;
+}
